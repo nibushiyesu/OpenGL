@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "iostream": "cpp"
+    },
+    "code-runner.executorMap": {
+        "c": "cd $dir && gcc '$fileName' -o '$fileNameWithoutExt.exe' -Wall -g -O2 -static-libgcc -std=c11 -lglut32 -lglu32 -lopengl32 -fexec-charset=GBK && &'$dir$fileNameWithoutExt'",
+        "cpp": "cd $dir && g++ '$fileName' -o '$fileNameWithoutExt.exe' -Wall -g -O2 -static-libgcc -std=c++17 -lglut32 -lglu32 -lopengl32 -fexec-charset=GBK && &'$dir$fileNameWithoutExt'"
+    }
+
+    
+}
